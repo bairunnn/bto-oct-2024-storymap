@@ -295,7 +295,7 @@ map.on("load", function () {
             data: "data/layers/MRTStations_20240914_v1.geojson"
         },
         layout: {
-            "text-field": ["concat", ["get", "name"], " station"], 
+            "text-field": ["get", "name"], // Display the name of the MRT station
             "text-font": ["Barlow Bold"], 
             "text-size": 16,
             "text-offset": [0, 0],
