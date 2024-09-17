@@ -92,7 +92,7 @@ In contrast, the project at Jurong West is the least accessible to rapid transit
 
 However, accessibility to the road network is superior. The site is located right beside the exit of the Ayer Rajah Expressway which runs to the city (with tolls). If one would like to commute to the city by bus, semi-express buses run along the Expressway - a viable alternative to taking feeder buses to Lakeside and onwards by train to the city. Still, the frequency of such semi-express buses are relatively low, and services are susceptible to congestion. Moreover, whether these bus services survive into the future is up to the discretion of the Land Transport Authority.
 
-## Chapter 11 - Accessibility to transport (active transport)
+## Chapter 11 - Accessibility to active transport infrastructure
 
 What about intra-town journeys by active modes? 
 
@@ -118,11 +118,11 @@ This last section considers a set of indicators on the accessibility of each sit
 
 The multi-ethnic character of Singapore blesses the country with exceptionally good food from various cuisines. The colonial experience allows different cuisines to influence one another, giving rise to unique dishes not commonly found elsewhere.
 
-The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.
+The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. These are shown in the map here in purple. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.
 
 ## Chapter 16 - Bayshore : Where are the hawkers at?
 
-Among the 15 sites in the October 2024 launch, the two sites at the Bayshore neighbourhood have the lowest accessibility to existing hawker centres (over 1 km away from the nearest hawker centre). Perhaps it is time for planners to build their very own hawker centre?
+Among the 15 sites in the October 2024 launch, the two sites at the Bayshore neighbourhood have the lowest accessibility to existing hawker centres (over 1 km away from the nearest hawker centre). Perhaps it is time for planners to build Bayshore's very own hawker centre?
 
 ## Chapter 17 - Jurong West : A similar plight
 

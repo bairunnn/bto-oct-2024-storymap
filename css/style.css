@@ -36,6 +36,7 @@ body {
     position: relative; 
     z-index: 5; /* Ensures the header is always on top of the map */
     padding: 2vh 0vh 5vh 0vh; /* top right bottom left */
+    background-color: #fdfbf6;
   }
 
 /* The features element holds all the chapters. */
@@ -121,7 +122,7 @@ body {
   }
   
   a, a:hover, a:visited {
-      color: #e96138;
+      color: #5f514d;
     }
 
 /* Styling any popups */
@@ -168,7 +169,7 @@ body {
 
 .light {
     color: #444;
-    background-color: #ffffff;
+    background-color: #fbf9f2;
 }
 
 .dark {

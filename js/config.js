@@ -97,7 +97,7 @@ let divChapter10 =`
 `;
 
 let divChapter11 =`
-<h3>Accessibility to transport (active transport)</h3>
+<h3>Accessibility to active transport infrastructure</h3>
 <p>What about intra-town journeys by active modes?</p>
 <p>Despite Singapore's hot weather, the expansion of the cycle path + Park Connector Network is a priority for transport policy. In Aug 2024, the government announced that an additional 84 km of cycle paths would be ready by 2030. Let us find out how accessible the October 2024 sites are to the existing cycle path network.</p>
 <p>The goal of the Land Transport Authority is to have 8 in 10 public housing residents to be within 10 minutes from their nearest cycle path.</p>
@@ -118,13 +118,13 @@ let divChapter14 =`
 let divChapter15 =`
 <h3>Hawker centres : Food havens within a country with good food</h3>
 <p>The multi-ethnic character of Singapore blesses the country with exceptionally good food from various cuisines. The colonial experience allows different cuisines to influence one another, giving rise to unique dishes not commonly found elsewhere.</p>
-<p>The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.</p>
+<p>The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. These are shown in the map here in <span style="color: #d50a78;">purple</span>. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.</p>
 <img src="./data/images/nasi_lemak.jpg" alt="Nasi Lemak from Punggol Hawker Centre" style="max-width:75%; height:auto;">
 `;
 
 let divChapter16 =`
 <h3>Bayshore : Where are the hawkers at?</h3>
-<p>Among the 15 sites in the October 2024 launch, the two sites at the Bayshore neighbourhood have the lowest accessibility to existing hawker centres (over 1 km away from the nearest hawker centre). Perhaps it is time for planners to build their very own hawker centre?</p>
+<p>Among the 15 sites in the October 2024 launch, the two sites at the Bayshore neighbourhood have the lowest accessibility to existing hawker centres (over 1 km away from the nearest hawker centre). Perhaps it is time for planners to build Bayshore's very own hawker centre?</p>
 `;
 
 let divChapter17 =`
@@ -190,7 +190,7 @@ MAP AND TRANSITIONS - THE MAIN CONFIGURATION SECTION
 */
 
 var config = {
-    style: "mapbox://styles/mapbox/light-v11",
+    style: "mapbox://styles/byronnn/cm15ugzyg00dg01pc3ucid3od",
     accessToken: "pk.eyJ1IjoiYnlyb25ubiIsImEiOiJjbTB2NG9qajYxOTE1Mmtwd3Q1aDd5cjM2In0.K6SRujI45VvXnG1vfcwbwA",
     showMarkers: false,
     markerColor: "#242422",
@@ -210,7 +210,7 @@ var config = {
         hidden: false,
         chapterDiv: divChapter1,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -315,7 +315,7 @@ var config = {
         description: "",
         chapterDiv: divChapter2,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -420,7 +420,7 @@ var config = {
         description: "",
         chapterDiv: divChapter3,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -735,7 +735,7 @@ var config = {
         description: "",
         chapterDiv: divChapter7,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -840,7 +840,7 @@ var config = {
         description: "",
         chapterDiv: divChapter8,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -1051,8 +1051,8 @@ var config = {
         chapterDiv: divChapter10,
         location: {
           center: [103.727650, 1.326608], // Jurong West
-          zoom: 15,
-          zoomSmall: 13,
+          zoom: 14.5,
+          zoomSmall: 12.5,
           pitch: 0,
           bearing: 0,
         },
@@ -1155,9 +1155,9 @@ var config = {
         description: "",
         chapterDiv: divChapter11,
         location: {
-          center: [103.845436, 1.369115], // default sg center
-          zoom: 11,
-          zoomSmall: 11,
+          center: [103.809038, 1.353424], // default sg center
+          zoom: 10,
+          zoomSmall: 10,
           pitch: 0,
           bearing: 0,
         },
@@ -1365,7 +1365,7 @@ var config = {
         description: "",
         chapterDiv: divChapter14,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -1470,7 +1470,7 @@ var config = {
         description: "",
         chapterDiv: divChapter15,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -1785,7 +1785,7 @@ var config = {
         description: "",
         chapterDiv: divChapter18,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -1995,7 +1995,7 @@ var config = {
         description: "",
         chapterDiv: divChapter20,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
@@ -2228,7 +2228,7 @@ var config = {
         description: "",
         chapterDiv: divChapter23,
         location: {
-          center: [103.845436, 1.369115], // default sg center
+          center: [103.809038, 1.353424], // default sg center
           zoom: 11,
           zoomSmall: 11,
           pitch: 0,
