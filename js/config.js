@@ -20,7 +20,7 @@ let descriptionDiv = `
 <p>To aid in the comparison process, the government releases Town Maps (such as the one pictured below), but these are static and comparing projects within the same launch is still not straightforward.</p>
 <p> As such, this story map addresses this issue by experimenting with new ways of comparing sites within the same sales launch, using various accessibility indicators.</p>
 <div style="max-width:100%; text-align:center; margin-left:auto; margin-right:auto">
-  <img src="./data/images/sample_townmap.jpg" alt="Sample town map" style="max-width:75%; height:auto;">
+  <img src="./data/images/sample_townmap.webp" alt="Sample town map" style="max-width:75%; height:auto;">
 </div>
 <p><em>Above: An example of a static Town Map provided by the Singapore government for prospective buyers, showing parks, cycle paths, stations, and some neighborhood amenities.</em></p>
 <p>To facilitate comparison between different sites, accessibility metrics are calculated in ArcGIS and presented in the map views below. This story map examines the following indicators:</p>
@@ -119,7 +119,7 @@ let divChapter15 =`
 <h3>Hawker centres : Food havens within a country with good food</h3>
 <p>The multi-ethnic character of Singapore blesses the country with exceptionally good food from various cuisines. The colonial experience allows different cuisines to influence one another, giving rise to unique dishes not commonly found elsewhere.</p>
 <p>The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. These are shown in the map here in <span style="color: #d50a78;">purple</span>. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.</p>
-<img src="./data/images/nasi_lemak.jpg" alt="Nasi Lemak from Punggol Hawker Centre" style="max-width:75%; height:auto;">
+<img src="./data/images/nasi_lemak.webp" alt="Nasi Lemak from Punggol Hawker Centre" style="max-width:75%; height:auto;">
 `;
 
 let divChapter16 =`
@@ -143,7 +143,7 @@ let divChapter18 =`
   </a>, 
   which houses a makerspace. All facilities are free to use.
 </p>
-<img src="./data/images/makerspace_punggol.jpg" alt="Punggol Regional Library's dedicated makerspace" style="max-width:75%; height:auto;">
+<img src="./data/images/makerspace_punggol.webp" alt="Punggol Regional Library's dedicated makerspace" style="max-width:75%; height:auto;">
 <p>Many sites in the October 2024 launch have decent access to existing public libraries.</p>
 `;
 
