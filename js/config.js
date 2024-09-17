@@ -10,7 +10,7 @@ Contents:
 ########################################################################
 HEADER SECTION
 */
-let topTitleDiv = "<h4>2024 MUSA 611 JavaScript for Planners story map project</h4>";
+let topTitleDiv = "<h4>2024 MUSA 611 JavaScript for Planners Story Map Project</h4>";
 let titleDiv = "<h1>How accessible is your new home?</h1>";
 let bylineDiv = "<p>Byron Huang<br>17 Sep 2024</p>";
 let descriptionDiv = `
@@ -19,21 +19,23 @@ let descriptionDiv = `
 <p>This story map is aimed at illustrating the accessibility of these upcoming public housing projects. One common pain point for prospective homebuyers is comparing the accessibility of different projects.</p>
 <p>To aid in the comparison process, the government releases Town Maps (such as the one pictured below), but these are static and comparing projects within the same launch is still not straightforward.</p>
 <p> As such, this story map addresses this issue by experimenting with new ways of comparing sites within the same sales launch, using various accessibility indicators.</p>
+<p><br></p>
 <div style="max-width:100%; text-align:center; margin-left:auto; margin-right:auto">
   <img src="./data/images/sample_townmap.webp" alt="Sample town map" style="max-width:75%; height:auto;">
 </div>
 <p><em>Above: An example of a static Town Map provided by the Singapore government for prospective buyers, showing parks, cycle paths, stations, and some neighborhood amenities.</em></p>
+<p><br></p>
 <p>To facilitate comparison between different sites, accessibility metrics are calculated in ArcGIS and presented in the map views below. This story map examines the following indicators:</p>
-<p><strong>Accessibility to nature</strong><br>Area (in km<sup>2</sup>) of parks and nature reserves within a 1km buffer from site</p>
-<p><strong>Accessibility to transport</strong><br>
+<p><strong>1. Accessibility to nature</strong><br>Area (in km<sup>2</sup>) of parks and nature reserves within a 1km buffer from site</p>
+<p><strong>2. Accessibility to transport</strong><br>
 Distance (in m) to nearest MRT/LRT station<br>
 Length (in m) of cycle paths within a 1km buffer from site</p>
-<p><strong>Accessibility to existing neighbourhood amenities</strong><br>
+<p><strong>3. Accessibility to existing neighbourhood amenities</strong><br>
 Distance (in m) to nearest hawker centre<br>
 Distance (in m) to nearest library<br>
 Area (in km<sup>2</sup>) of existing public housing within a 1km buffer from site</p>
 <p><br></p>
-<p style="text-align:center">Scroll to continue<br>▼</p>
+<p style="text-align:center">Explore the projects below<br>▼</p>
 `;
 
 /*
@@ -180,7 +182,7 @@ FOOTER SECTION
 */
 
 let footerDiv = `
-<p>This is not an advertisement for the Singapore government. However, the author would like to thank the Singapore government for access to datasets used in this project, via <a href="https://data.gov.sg" target="_blank">https://data.gov.sg</a>.</p>
+<p>The author would like to thank the Singapore government for access to datasets used in this project, obtained via <a href="https://data.gov.sg" target="_blank">https://data.gov.sg</a>.</p>
 <p>Credits to Juan Francisco Saldarriaga (PointsUnknown) for the storymap template: <a href="https://github.com/PointsUnknown/PointsUnknown.github.io" target="_blank">https://github.com/PointsUnknown/PointsUnknown.github.io</a></p>
 `;
 
