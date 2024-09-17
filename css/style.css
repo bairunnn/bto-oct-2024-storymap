@@ -135,6 +135,16 @@ body {
       color: #5f514d;
     }
 
+/* Mobile Styles for footer */
+@media only screen and (max-width: 800px) {
+    #footer p {
+        max-width: 80%; /* Full width on small screens */
+    }
+    #footer {
+        padding: 1vh 1vh 3vh 1vh; /* Adjust padding for smaller screens */
+    }
+}
+
 /* Styling any popups */
 .mapboxgl-popup-content h4 {
     font-weight: 500;
