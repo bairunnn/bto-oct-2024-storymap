@@ -45,7 +45,8 @@ CHAPTERS
 
 let divChapter1 =`
 <h3>Existing public housing and the Built-to-Order (BTO) system</h3>
-<p>The share of public housing in Singapore's housing market is particularly high in the world. This map shows the extent of public housing in Singapore (in red). <strong>About 80% of Singaporeans live in public housing.</strong> Every three months, the Housing and Development Board (HDB) adds to this public housing stock through the Built-to-Order (BTO) scheme. In this exercise, prospective homebuyers pay $10 to choose a site to ballot for. Successful applicants will receive a queue number for them to choose their preferred unit.</p>
+<p>The share of public housing in Singapore's housing market is particularly high in the world. This map shows the extent of public housing in Singapore (in <span style="color:#b20300;">red</span>). <strong>About 80% of Singaporeans live in public housing.</strong></p>
+<p>Every three months, the Housing and Development Board (HDB) adds to this public housing stock through the Built-to-Order (BTO) scheme. In this exercise, prospective homebuyers pay $10 to choose a site to ballot for. Successful applicants will receive a queue number for them to choose their preferred unit.</p>
 `;
 
 let divChapter2 =`
@@ -2039,7 +2040,7 @@ var config = {
             },
             {
                 layer: "ExistingHDBDissolved",
-                opacity: 1,
+                opacity: 0.3,
                 duration: 300,
             },
             {
@@ -2081,7 +2082,7 @@ var config = {
             },
             {
                 layer: "ExistingHDBDissolved",
-                opacity: 1,
+                opacity: 0.3,
                 duration: 300,
             },
             {
@@ -2167,7 +2168,7 @@ var config = {
             },
             {
                 layer: "ExistingHDBDissolved",
-                opacity: 1,
+                opacity: 0.3,
                 duration: 300,
             },
             {
@@ -2246,7 +2247,7 @@ var config = {
         },
         {
             layer: "MRTLines_20240914",
-            opacity: 0,
+            opacity: 0.5,
             duration: 300,
         },
         {
@@ -2266,7 +2267,7 @@ var config = {
         },
         {
             layer: "Parks",
-            opacity: 0,
+            opacity: 0.15,
             duration: 300,
         },
         {
@@ -2287,7 +2288,7 @@ var config = {
             },
             {
                 layer: "MRTLines_20240914",
-                opacity: 0,
+                opacity: 0.5,
                 duration: 300,
             },
             {
@@ -2307,7 +2308,7 @@ var config = {
             },
             {
                 layer: "Parks",
-                opacity: 0,
+                opacity: 0.15,
                 duration: 300,
             },
             {
