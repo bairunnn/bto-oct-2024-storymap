@@ -109,13 +109,13 @@ body {
     text-transform: uppercase;
     font-family: 'Barlow', serif;
     text-align: left;
-    max-width: 50vw;
+    max-width: 65vw;
 }
 #features p {
     font-family: 'Barlow', sans-serif;
     text-align: left;
     font-size: 1.2em;
-    max-width: 50vw;
+    max-width: 65vw;
 }
 #features .imageCredit {
   font-size: 0.9em;
