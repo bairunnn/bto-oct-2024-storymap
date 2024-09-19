@@ -2224,7 +2224,7 @@ var config = {
       // ################################################################
       {
         id: "view23",
-        alignment: "full",
+        alignment: "left",
         hidden: false,
         title: "",
         image: "",
@@ -2232,8 +2232,8 @@ var config = {
         chapterDiv: divChapter23,
         location: {
           center: [103.809038, 1.353424], // default sg center
-          zoom: 11,
-          zoomSmall: 11,
+          zoom: 10,
+          zoomSmall: 10,
           pitch: 0,
           bearing: 0,
         },
@@ -2247,7 +2247,7 @@ var config = {
         },
         {
             layer: "MRTLines_20240914",
-            opacity: 0.5,
+            opacity: 0.3,
             duration: 300,
         },
         {
@@ -2267,7 +2267,7 @@ var config = {
         },
         {
             layer: "Parks",
-            opacity: 0.15,
+            opacity: 0.1,
             duration: 300,
         },
         {
@@ -2288,7 +2288,7 @@ var config = {
             },
             {
                 layer: "MRTLines_20240914",
-                opacity: 0.5,
+                opacity: 0.3,
                 duration: 300,
             },
             {
@@ -2308,7 +2308,7 @@ var config = {
             },
             {
                 layer: "Parks",
-                opacity: 0.15,
+                opacity: 0.1,
                 duration: 300,
             },
             {
