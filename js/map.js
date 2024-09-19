@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /*
 Welcome to the map.js file
 This file contains all the JavaScript code that will power the storymap.
@@ -268,7 +269,7 @@ map.on("load", function () {
         },
         paint: {
             "fill-color": "#ffa600",
-            "fill-opacity": 0.99
+            "fill-opacity": 0
         }
     });
 
@@ -282,7 +283,8 @@ map.on("load", function () {
         },
         paint: {
             "line-color": ["get", "colour"],
-            "line-width": 2
+            "line-width": 2,
+            "line-opacity": 0
         }
     });
 
@@ -304,7 +306,8 @@ map.on("load", function () {
         paint: {
             "text-color": "#000000", // Text color
             "text-halo-color": "#ffffff", // White halo around text for readability
-            "text-halo-width": 2 // Halo width for better contrast
+            "text-halo-width": 2, // Halo width for better contrast
+            "text-opacity": 0,
         }
     });
 
@@ -320,7 +323,9 @@ map.on("load", function () {
             "circle-color": "#d50a78",  // Replace with the desired color
             "circle-radius": 5,  // Adjust as needed
             "circle-stroke-color": "#d50a78",
-            "circle-stroke-width": 1
+            "circle-stroke-width": 1,
+            "circle-opacity": 0,
+            "circle-stroke-opacity": 0
         }
     });
 
@@ -336,7 +341,9 @@ map.on("load", function () {
             "circle-color": "#0088cd",  // Replace with the desired color
             "circle-radius": 5,  // Adjust as needed
             "circle-stroke-color": "#0088cd",
-            "circle-stroke-width": 1
+            "circle-stroke-width": 1,
+            "circle-opacity": 0,
+            "circle-stroke-opacity": 0
         }
     });
 
@@ -350,7 +357,7 @@ map.on("load", function () {
         },
         paint: {
             "fill-color": "#00c600",  // Replace with the desired color
-            "fill-opacity": 0.99
+            "fill-opacity": 0
         }
     });
 
@@ -364,7 +371,7 @@ map.on("load", function () {
         },
         paint: {
             "fill-color": "#b20300",  // Replace with the desired color
-            "fill-opacity": 0.99
+            "fill-opacity": 0
         }
     });
 
@@ -378,8 +385,8 @@ map.on("load", function () {
         },
         paint: {
             "line-color": "#3038f9",  // Replace with the desired color
-            "line-width": 2
-        }
+            "line-width": 2,
+            "line-opacity": 0}
     });
   
     // Use the scrollama library to manage scrolling events in the storymap 

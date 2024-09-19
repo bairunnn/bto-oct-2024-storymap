@@ -44,12 +44,13 @@ body {
     padding-top: 80vh;
     padding-bottom: 10vh;
   }
-  @media (max-width: 750px) { /* This would be for media with a maximum width of 750px */
+
+@media (max-width: 750px) { /* This would be for media with a maximum width of 750px */
     #features {
-      width: 80vw;
-      margin: 0 auto;
+        width: 80vw;
+        margin: 0 auto;
     }
-  }
+}
 
 /* The footer contains some concluding notes, like attributions to gov.sg */
 #footer {
@@ -65,13 +66,14 @@ body {
 #header h1 {
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Barlow', serif;
+    font-family: Barlow, serif;
     text-align: left;
     margin: auto;
     max-width: 800px;
 }
+
 #header h4 {
-    font-family: 'Barlow', sans-serif;
+    font-family: Barlow, sans-serif;
     font-weight: 300;
     margin-bottom: 0.5em;
     margin-left: auto;
@@ -79,11 +81,13 @@ body {
     text-align: left;
     max-width: 800px;
 }
+
 #header p.byline {
     font-weight: 300;
     font-size: 0.9em;
     margin: 0.5em auto 0.8em auto;
 }
+
 #header p {
     font-family: 'Barlow', sans-serif;
     font-weight: 400;
@@ -98,6 +102,7 @@ body {
     #header h1, #header h4, #header p {
         max-width: 80%; /* Full width on small screens */
     }
+    
     #header {
         padding: 1vh 1vh 3vh 1vh; /* Adjust padding for smaller screens */
     }
@@ -107,16 +112,18 @@ body {
 #features h3 {
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Barlow', serif;
+    font-family: Barlow, serif;
     text-align: left;
     max-width: 65vw;
 }
+
 #features p {
     font-family: 'Barlow', sans-serif;
     text-align: left;
     font-size: 1.2em;
     max-width: 65vw;
 }
+
 #features .imageCredit {
   font-size: 0.9em;
   margin-top: -5px;
@@ -125,8 +132,8 @@ body {
 /* Styling the footer. */
 #footer p {
     font-family: 'Barlow', sans-serif;
-    font-size: 0.9em;
-    max-width: 600px;
+    font-size: 1em;
+    max-width: 800px;
     padding: 0.75em 0em;
     margin: 0px auto;
   }
@@ -140,6 +147,7 @@ body {
     #footer p {
         max-width: 80%; /* Full width on small screens */
     }
+
     #footer {
         padding: 1vh 1vh 3vh 1vh; /* Adjust padding for smaller screens */
     }

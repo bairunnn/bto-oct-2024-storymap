@@ -12,15 +12,15 @@ HEADER SECTION
 */
 let topTitleDiv = "<h4>2024 MUSA 611 JavaScript for Planners Story Map Project</h4>";
 let titleDiv = "<h1>How accessible is your new home?</h1>";
-let bylineDiv = "<p>Byron Huang<br>17 Sep 2024</p>";
+let bylineDiv = "<p>Byron Huang<br>18 Sep 2024</p>";
 let descriptionDiv = `
 <p>Welcome!</p>
-<p>In October 2024, the government of Singapore will be launching <span style="background-color: yellow;">15 new public housing projects</span> for sale. If you are a prospective homebuyer, how would you choose which project to apply to?</p>
+<p>In October 2024, the government of Singapore will be launching <span style="background-color: yellow;">15 new public housing projects</span> for <a href="https://homes.hdb.gov.sg/home/landing" target="_blank">sale</a>. If you are a prospective homebuyer, how would you choose which project to apply to?</p>
 <p>This story map is aimed at illustrating the accessibility of these upcoming public housing projects. One common pain point for prospective homebuyers is comparing the accessibility of different projects.</p>
 <p>To aid in the comparison process, the government releases Town Maps (such as the one pictured below), but these are static and comparing projects within the same launch is still not straightforward.</p>
 <p> As such, this story map addresses this issue by experimenting with new ways of comparing sites within the same sales launch, using various accessibility indicators.</p>
 <p><br></p>
-<div style="max-width:100%; text-align:center; margin-left:auto; margin-right:auto">
+<div style="max-width:70%; text-align:center; margin-left:auto; margin-right:auto">
   <img src="./data/images/sample_townmap.webp" alt="Sample town map" style="max-width:75%; height:auto;">
 </div>
 <p><em>Above: An example of a static Town Map provided by the Singapore government for prospective buyers, showing parks, cycle paths, stations, and some neighborhood amenities.</em></p>
@@ -46,7 +46,7 @@ CHAPTERS
 let divChapter1 =`
 <h3>Existing public housing and the Built-to-Order (BTO) system</h3>
 <p>The share of public housing in Singapore's housing market is particularly high in the world. This map shows the extent of public housing in Singapore (in <span style="color:#b20300;">red</span>). <strong>About 80% of Singaporeans live in public housing.</strong></p>
-<p>Every three months, the Housing and Development Board (HDB) adds to this public housing stock through the Built-to-Order (BTO) scheme. In this exercise, prospective homebuyers pay $10 to choose a site to ballot for. Successful applicants will receive a queue number for them to choose their preferred unit.</p>
+<p>Every three months, the <a href="https://www.hdb.gov.sg/cs/infoweb/homepage" target="_blank">Housing and Development Board (HDB)</a> adds to this public housing stock through the Built-to-Order (BTO) scheme. In this exercise, prospective homebuyers pay $10 to choose a site to ballot for. Successful applicants will receive a queue number for them to choose their preferred unit.</p>
 `;
 
 let divChapter2 =`
@@ -120,7 +120,7 @@ let divChapter14 =`
 
 let divChapter15 =`
 <h3>Hawker centres : Food havens within a country with good food</h3>
-<p>The multi-ethnic character of Singapore blesses the country with exceptionally good food from various cuisines. The colonial experience allows different cuisines to influence one another, giving rise to unique dishes not commonly found elsewhere.</p>
+<p>The multi-ethnic character of Singapore blesses the country with exceptionally good food from various cuisines, including the signature Nasi Lemak pictured below. The colonial experience allows different cuisines to influence one another, giving rise to unique dishes not commonly found elsewhere.</p>
 <p>The National Environment Agency operates 125 hawker centres - with generally low rents for stallholders. These are shown in the map here in <span style="color: #d50a78;">purple</span>. Residents can find an assortment of food from various cultures within each hawker centre at reasonable prices.</p>
 <img src="./data/images/nasi_lemak.webp" alt="Nasi Lemak from Punggol Hawker Centre" style="max-width:75%; height:auto;">
 `;
@@ -1054,8 +1054,8 @@ var config = {
         chapterDiv: divChapter10,
         location: {
           center: [103.727650, 1.326608], // Jurong West
-          zoom: 14.5,
-          zoomSmall: 12.5,
+          zoom: 15,
+          zoomSmall: 13,
           pitch: 0,
           bearing: 0,
         },
@@ -1894,8 +1894,8 @@ var config = {
         chapterDiv: divChapter19,
         location: {
           center: [103.845655, 1.374842], // Ang Mo Kio
-          zoom: 15,
-          zoomSmall: 13,
+          zoom: 16,
+          zoomSmall: 14,
           pitch: 0,
           bearing: 0,
         },
